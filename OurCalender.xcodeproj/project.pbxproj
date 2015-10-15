@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47C3D5FEE0AEB9574087A57E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BAB159B8B0D66B80514E36A /* libPods.a */; };
+		BA33C1171AAF9F3A007705F1 /* EventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA33C1151AAF9F3A007705F1 /* EventsViewController.m */; };
+		BA33C1181AAF9F3A007705F1 /* EventsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA33C1161AAF9F3A007705F1 /* EventsViewController.xib */; };
+		BA33C1221AAFA90C007705F1 /* NewEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA33C1201AAFA90C007705F1 /* NewEventViewController.m */; };
+		BA33C1231AAFA90C007705F1 /* AddEventController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA33C1211AAFA90C007705F1 /* AddEventController.xib */; };
+		BA5A690A1AB030B2006E5E03 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = BA5A69091AB030B2006E5E03 /* User.m */; };
+		BA5A690D1AB030F3006E5E03 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = BA5A690C1AB030F3006E5E03 /* Event.m */; };
 		BA5FA94B1AAF9111002FCB02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA5FA94A1AAF9111002FCB02 /* main.m */; };
 		BA5FA94E1AAF9111002FCB02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA5FA94D1AAF9111002FCB02 /* AppDelegate.m */; };
 		BA5FA9511AAF9111002FCB02 /* OurCalender.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA5FA94F1AAF9111002FCB02 /* OurCalender.xcdatamodeld */; };
-		BA5FA9541AAF9111002FCB02 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA5FA9531AAF9111002FCB02 /* ViewController.m */; };
-		BA5FA9571AAF9111002FCB02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA5FA9551AAF9111002FCB02 /* Main.storyboard */; };
 		BA5FA9591AAF9111002FCB02 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA5FA9581AAF9111002FCB02 /* Images.xcassets */; };
 		BA5FA95C1AAF9111002FCB02 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA5FA95A1AAF9111002FCB02 /* LaunchScreen.xib */; };
 		BA5FA9681AAF9111002FCB02 /* OurCalenderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA5FA9671AAF9111002FCB02 /* OurCalenderTests.m */; };
+		BA5FA9721AAF913D002FCB02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA5FA9711AAF913D002FCB02 /* Main.storyboard */; };
+		BA6E4B111AAFD6D1002C5948 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6E4B101AAFD6D1002C5948 /* LoginViewController.m */; };
+		BA6E4B1A1AAFDE7C002C5948 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6E4B191AAFDE7C002C5948 /* ChatViewController.m */; };
+		BA6E4B1D1AAFEC5F002C5948 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6E4B1C1AAFEC5F002C5948 /* SignUpViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +37,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9BAB159B8B0D66B80514E36A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA33C1141AAF9F3A007705F1 /* EventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsViewController.h; sourceTree = "<group>"; };
+		BA33C1151AAF9F3A007705F1 /* EventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsViewController.m; sourceTree = "<group>"; };
+		BA33C1161AAF9F3A007705F1 /* EventsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventsViewController.xib; sourceTree = "<group>"; };
+		BA33C11F1AAFA90C007705F1 /* NewEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewEventViewController.h; sourceTree = "<group>"; };
+		BA33C1201AAFA90C007705F1 /* NewEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewEventViewController.m; sourceTree = "<group>"; };
+		BA33C1211AAFA90C007705F1 /* AddEventController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddEventController.xib; sourceTree = "<group>"; };
+		BA5A69081AB030B2006E5E03 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		BA5A69091AB030B2006E5E03 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		BA5A690B1AB030F3006E5E03 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		BA5A690C1AB030F3006E5E03 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
 		BA5FA9451AAF9111002FCB02 /* OurCalender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OurCalender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA5FA9491AAF9111002FCB02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA5FA94A1AAF9111002FCB02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BA5FA94C1AAF9111002FCB02 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BA5FA94D1AAF9111002FCB02 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BA5FA9501AAF9111002FCB02 /* OurCalender.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OurCalender.xcdatamodel; sourceTree = "<group>"; };
-		BA5FA9521AAF9111002FCB02 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BA5FA9531AAF9111002FCB02 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BA5FA9561AAF9111002FCB02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA5FA9581AAF9111002FCB02 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BA5FA95B1AAF9111002FCB02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BA5FA9611AAF9111002FCB02 /* OurCalenderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OurCalenderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA5FA9661AAF9111002FCB02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA5FA9671AAF9111002FCB02 /* OurCalenderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OurCalenderTests.m; sourceTree = "<group>"; };
+		BA5FA9711AAF913D002FCB02 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BA6E4B0F1AAFD6D1002C5948 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ../LoginViewController.h; sourceTree = "<group>"; };
+		BA6E4B101AAFD6D1002C5948 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ../LoginViewController.m; sourceTree = "<group>"; };
+		BA6E4B181AAFDE7C002C5948 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChatViewController.h; path = ../ChatViewController.h; sourceTree = "<group>"; };
+		BA6E4B191AAFDE7C002C5948 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChatViewController.m; path = ../ChatViewController.m; sourceTree = "<group>"; };
+		BA6E4B1B1AAFEC5F002C5948 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		BA6E4B1C1AAFEC5F002C5948 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47C3D5FEE0AEB9574087A57E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +93,7 @@
 				BA5FA9471AAF9111002FCB02 /* OurCalender */,
 				BA5FA9641AAF9111002FCB02 /* OurCalenderTests */,
 				BA5FA9461AAF9111002FCB02 /* Products */,
+				C9A900CEA88FC5AE2893C190 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,13 +109,22 @@
 		BA5FA9471AAF9111002FCB02 /* OurCalender */ = {
 			isa = PBXGroup;
 			children = (
-				BA5FA94C1AAF9111002FCB02 /* AppDelegate.h */,
-				BA5FA94D1AAF9111002FCB02 /* AppDelegate.m */,
-				BA5FA9521AAF9111002FCB02 /* ViewController.h */,
-				BA5FA9531AAF9111002FCB02 /* ViewController.m */,
-				BA5FA9551AAF9111002FCB02 /* Main.storyboard */,
+				BA5A69081AB030B2006E5E03 /* User.h */,
+				BA5A69091AB030B2006E5E03 /* User.m */,
+				BA5A690B1AB030F3006E5E03 /* Event.h */,
+				BA5A690C1AB030F3006E5E03 /* Event.m */,
+				BA6E4B181AAFDE7C002C5948 /* ChatViewController.h */,
+				BA6E4B191AAFDE7C002C5948 /* ChatViewController.m */,
+				BA6E4B0F1AAFD6D1002C5948 /* LoginViewController.h */,
+				BA6E4B101AAFD6D1002C5948 /* LoginViewController.m */,
+				BA6E4B1B1AAFEC5F002C5948 /* SignUpViewController.h */,
+				BA6E4B1C1AAFEC5F002C5948 /* SignUpViewController.m */,
+				BA33C1141AAF9F3A007705F1 /* EventsViewController.h */,
+				BA33C1151AAF9F3A007705F1 /* EventsViewController.m */,
+				BA33C11F1AAFA90C007705F1 /* NewEventViewController.h */,
+				BA33C1201AAFA90C007705F1 /* NewEventViewController.m */,
+				BA5FA9711AAF913D002FCB02 /* Main.storyboard */,
 				BA5FA9581AAF9111002FCB02 /* Images.xcassets */,
-				BA5FA95A1AAF9111002FCB02 /* LaunchScreen.xib */,
 				BA5FA94F1AAF9111002FCB02 /* OurCalender.xcdatamodeld */,
 				BA5FA9481AAF9111002FCB02 /* Supporting Files */,
 			);
@@ -99,6 +134,11 @@
 		BA5FA9481AAF9111002FCB02 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BA5FA94C1AAF9111002FCB02 /* AppDelegate.h */,
+				BA5FA94D1AAF9111002FCB02 /* AppDelegate.m */,
+				BA5FA95A1AAF9111002FCB02 /* LaunchScreen.xib */,
+				BA33C1211AAFA90C007705F1 /* AddEventController.xib */,
+				BA33C1161AAF9F3A007705F1 /* EventsViewController.xib */,
 				BA5FA9491AAF9111002FCB02 /* Info.plist */,
 				BA5FA94A1AAF9111002FCB02 /* main.m */,
 			);
@@ -122,6 +162,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C9A900CEA88FC5AE2893C190 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BAB159B8B0D66B80514E36A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA5FA96B1AAF9111002FCB02 /* Build configuration list for PBXNativeTarget "OurCalender" */;
 			buildPhases = (
+				A2B39C4E0888779806A47492 /* Check Pods Manifest.lock */,
 				BA5FA9411AAF9111002FCB02 /* Sources */,
 				BA5FA9421AAF9111002FCB02 /* Frameworks */,
 				BA5FA9431AAF9111002FCB02 /* Resources */,
+				F20F6D52AD794F9855DFCE63 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -171,6 +221,7 @@
 				TargetAttributes = {
 					BA5FA9441AAF9111002FCB02 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = P9Z3358A52;
 					};
 					BA5FA9601AAF9111002FCB02 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -202,8 +253,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA5FA9571AAF9111002FCB02 /* Main.storyboard in Resources */,
 				BA5FA95C1AAF9111002FCB02 /* LaunchScreen.xib in Resources */,
+				BA33C1181AAF9F3A007705F1 /* EventsViewController.xib in Resources */,
+				BA33C1231AAFA90C007705F1 /* AddEventController.xib in Resources */,
+				BA5FA9721AAF913D002FCB02 /* Main.storyboard in Resources */,
 				BA5FA9591AAF9111002FCB02 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,15 +270,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A2B39C4E0888779806A47492 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F20F6D52AD794F9855DFCE63 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BA5FA9411AAF9111002FCB02 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BA5FA94E1AAF9111002FCB02 /* AppDelegate.m in Sources */,
+				BA33C1171AAF9F3A007705F1 /* EventsViewController.m in Sources */,
+				BA5A690D1AB030F3006E5E03 /* Event.m in Sources */,
+				BA5A690A1AB030B2006E5E03 /* User.m in Sources */,
+				BA6E4B1A1AAFDE7C002C5948 /* ChatViewController.m in Sources */,
 				BA5FA9511AAF9111002FCB02 /* OurCalender.xcdatamodeld in Sources */,
-				BA5FA9541AAF9111002FCB02 /* ViewController.m in Sources */,
+				BA33C1221AAFA90C007705F1 /* NewEventViewController.m in Sources */,
+				BA6E4B111AAFD6D1002C5948 /* LoginViewController.m in Sources */,
 				BA5FA94B1AAF9111002FCB02 /* main.m in Sources */,
+				BA6E4B1D1AAFEC5F002C5948 /* SignUpViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,14 +340,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BA5FA9551AAF9111002FCB02 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BA5FA9561AAF9111002FCB02 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BA5FA95A1AAF9111002FCB02 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -349,9 +433,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = OurCalender/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -359,9 +446,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = OurCalender/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -418,6 +508,7 @@
 				BA5FA96D1AAF9111002FCB02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA5FA96E1AAF9111002FCB02 /* Build configuration list for PBXNativeTarget "OurCalenderTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +517,7 @@
 				BA5FA9701AAF9111002FCB02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
