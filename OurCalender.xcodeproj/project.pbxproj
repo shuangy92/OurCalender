@@ -109,20 +109,8 @@
 		BA5FA9471AAF9111002FCB02 /* OurCalender */ = {
 			isa = PBXGroup;
 			children = (
-				BA5A69081AB030B2006E5E03 /* User.h */,
-				BA5A69091AB030B2006E5E03 /* User.m */,
-				BA5A690B1AB030F3006E5E03 /* Event.h */,
-				BA5A690C1AB030F3006E5E03 /* Event.m */,
-				BA6E4B181AAFDE7C002C5948 /* ChatViewController.h */,
-				BA6E4B191AAFDE7C002C5948 /* ChatViewController.m */,
-				BA6E4B0F1AAFD6D1002C5948 /* LoginViewController.h */,
-				BA6E4B101AAFD6D1002C5948 /* LoginViewController.m */,
-				BA6E4B1B1AAFEC5F002C5948 /* SignUpViewController.h */,
-				BA6E4B1C1AAFEC5F002C5948 /* SignUpViewController.m */,
-				BA33C1141AAF9F3A007705F1 /* EventsViewController.h */,
-				BA33C1151AAF9F3A007705F1 /* EventsViewController.m */,
-				BA33C11F1AAFA90C007705F1 /* NewEventViewController.h */,
-				BA33C1201AAFA90C007705F1 /* NewEventViewController.m */,
+				BAA4E1B71BD070F700CB732B /* Controller */,
+				BAA4E1B61BD070E900CB732B /* Model */,
 				BA5FA9711AAF913D002FCB02 /* Main.storyboard */,
 				BA5FA9581AAF9111002FCB02 /* Images.xcassets */,
 				BA5FA94F1AAF9111002FCB02 /* OurCalender.xcdatamodeld */,
@@ -160,6 +148,34 @@
 				BA5FA9661AAF9111002FCB02 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BAA4E1B61BD070E900CB732B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA5A69081AB030B2006E5E03 /* User.h */,
+				BA5A69091AB030B2006E5E03 /* User.m */,
+				BA5A690B1AB030F3006E5E03 /* Event.h */,
+				BA5A690C1AB030F3006E5E03 /* Event.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BAA4E1B71BD070F700CB732B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BA6E4B181AAFDE7C002C5948 /* ChatViewController.h */,
+				BA6E4B191AAFDE7C002C5948 /* ChatViewController.m */,
+				BA6E4B0F1AAFD6D1002C5948 /* LoginViewController.h */,
+				BA6E4B101AAFD6D1002C5948 /* LoginViewController.m */,
+				BA6E4B1B1AAFEC5F002C5948 /* SignUpViewController.h */,
+				BA6E4B1C1AAFEC5F002C5948 /* SignUpViewController.m */,
+				BA33C1141AAF9F3A007705F1 /* EventsViewController.h */,
+				BA33C1151AAF9F3A007705F1 /* EventsViewController.m */,
+				BA33C11F1AAFA90C007705F1 /* NewEventViewController.h */,
+				BA33C1201AAFA90C007705F1 /* NewEventViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		C9A900CEA88FC5AE2893C190 /* Frameworks */ = {
